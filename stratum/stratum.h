@@ -160,6 +160,7 @@ void sha256_double_hash_hex(const char *input, char *output, unsigned int len);
 #include "algos/jha.h"
 #include "algos/skein.h"
 #include "algos/keccak.h"
+#include "algos/sha256d.h"
 #include "algos/sha256t.h"
 #include "algos/skunk.h"
 #include "algos/timetravel.h"
