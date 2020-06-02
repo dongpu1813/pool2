@@ -5,6 +5,7 @@ function yaamp_get_algos()
 	/* Toggle Site Algos Here */
 	return array(
 		'sha256',
+		'sha256d',
 		'sha256t',
 		'scrypt',
 		'scryptn',
@@ -67,6 +68,7 @@ function yaamp_algo_mBTC_factor($algo)
 {
 	switch($algo) {
 	case 'sha256':
+	case 'sha256d':
 	case 'sha256t':
 	case 'blake':
 	case 'blakecoin':
