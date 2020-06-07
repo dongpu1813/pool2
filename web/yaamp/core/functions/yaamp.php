@@ -68,6 +68,7 @@ function yaamp_algo_mBTC_factor($algo)
 {
 	switch($algo) {
 	case 'sha256':
+	case 'sha256d'	
 	case 'sha256t':
 	case 'blake':
 	case 'blakecoin':
