@@ -193,7 +193,7 @@ function getAlgoPort($algo)
 {
 	$a = array(
 		'sha256'	=> 3333,
-		'sha256d'	=> 33336,
+		'sha256d'	=> 3633,
 		'sha256t'	=> 3339,
 		'lbry'		=> 3334,
 		'scrypt'	=> 3433,
